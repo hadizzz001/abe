@@ -35,23 +35,23 @@ export default function RootLayout({
         />
         <meta content="max-image-preview:large" name="robots" />
         <title>
-          marwan asmar
+          sheikh medlej
         </title>
         <link rel="icon" href="/favicon.png?v=2" type="image/png" />
 
 
         <meta
-          content="At marwan asmar, we're reshaping the way businesses connect."
+          content="At sheikh medlej, we're reshaping the way businesses connect."
           name="description"
         />
-        <meta content="marwan asmar" name="keywords" property="trainer, book, author, dedicated, lebanon, kuwait, ksa, syria, jordan" />
+        <meta content="sheikh medlej" name="keywords" property="trainer, book, author, dedicated, lebanon, kuwait, ksa, syria, jordan" />
         <meta
-          content="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743798640/l9l0der0d6ydzuum7uey.png"
+          content="https://res.cloudinary.com/da48bjec6/image/upload/v1751491623/Capture-removebg-preview_tet2bg.png"
           name=""
           property="og:image"
         />
 
-        <meta name="twitter:image" content="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743798640/l9l0der0d6ydzuum7uey.png" />
+        <meta name="twitter:image" content="https://res.cloudinary.com/da48bjec6/image/upload/v1751491623/Capture-removebg-preview_tet2bg.png" />
 
 
         <meta content="#ffffff" name="msapplication-TileColor" />
@@ -61,7 +61,7 @@ export default function RootLayout({
  
 <meta property="og:url" content="https://marwanasmar.com/" />
 <meta property="og:type" content="website" />
-<meta property="og:logo" content="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743798640/l9l0der0d6ydzuum7uey.png" />
+<meta property="og:logo" content="https://res.cloudinary.com/da48bjec6/image/upload/v1751491623/Capture-removebg-preview_tet2bg.png" />
         
 
 

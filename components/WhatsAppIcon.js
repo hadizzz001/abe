@@ -3,7 +3,7 @@
 const WhatsAppIcon = () => {
   return (
     <a
-      href="https://wa.me/+9613682289" // Replace with your WhatsApp number
+      href="https://wa.me/+9613933437" // Replace with your WhatsApp number
       target="_blank"
       rel="noopener noreferrer"
       style={{

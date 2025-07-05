@@ -9,7 +9,7 @@ const PCNav = () => {
         {/* Logo */}
         <a href="/">
           <img
-            src="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743798640/l9l0der0d6ydzuum7uey.png"
+            src="https://res.cloudinary.com/da48bjec6/image/upload/v1751491623/Capture-removebg-preview_tet2bg.png"
             alt="Logo"
             width={175}
           />
@@ -20,20 +20,14 @@ const PCNav = () => {
           <a href="/" className="text-gray-800 hover:text-blue-700">
             Home
           </a>
-          <a href="/article" className="text-gray-800 hover:text-blue-700">
-            Articles
-          </a>
-          <a href="/gallery" className="text-gray-800 hover:text-blue-700">
-            Gallery
-          </a>
           <a href="/about" className="text-gray-800 hover:text-blue-700">
-            Book a Consultancy
+            About
           </a>
-          <a href="/shop" className="text-gray-800 hover:text-blue-700">
-            Best-Selling Books
-          </a>
+          <a href="/services" className="text-gray-800 hover:text-blue-700">
+            Services
+          </a>  
 
-          <a href="/contact" className="bg-[#000768] text-white px-6 py-3 rounded-full">
+          <a href="/contact" className="bg-[#725038] text-white px-6 py-3 rounded-full">
             Let's Talk
           </a>
 
@@ -53,7 +47,7 @@ const MobileNav = () => {
         <div className="absolute left-1/2 transform -translate-x-1/2">
           <a href="/">
             <img
-              src="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743798640/l9l0der0d6ydzuum7uey.png"
+              src="https://res.cloudinary.com/da48bjec6/image/upload/v1751491623/Capture-removebg-preview_tet2bg.png"
               alt="Logo"
 
               width={100}
@@ -82,22 +76,16 @@ const MobileNav = () => {
           <a href="/" className="text-gray-800" onClick={() => setIsOpen(false)}>
             Home
           </a>
-          <a href="/article" className="text-gray-800" onClick={() => setIsOpen(false)}>
-            Articles
-          </a>
-          <a href="/gallery" className="text-gray-800 hover:text-blue-700">
-            Gallery
-          </a>
           <a href="/about" className="text-gray-800" onClick={() => setIsOpen(false)}>
-            Book a Consultancy
+            About
           </a>
-          <a href="/shop" className="text-gray-800" onClick={() => setIsOpen(false)}>
-            Best-Selling Books
-          </a>
+          <a href="/services" className="text-gray-800 hover:text-blue-700">
+            Services
+          </a> 
 
           <a
             href="/contact"
-            className="bg-[#000768] text-white px-6 py-3 rounded-full"
+            className="bg-[#725038] text-white px-6 py-3 rounded-full"
             onClick={() => setIsOpen(false)}
           >
             Let's Talk

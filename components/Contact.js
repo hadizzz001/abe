@@ -24,7 +24,7 @@ export default function Features() {
 
  <p className="text-lg  text-center">Need assistance?</p>  
  <a href="contact">
- <button type="submit"  className="bg-[#000768] text-white px-6 py-3 rounded-full text-large font-large" style={{padding: "1em",minWidth: "10%", marginTop: "3em",marginBottom: "3em"}}>Get in touch</button>
+ <button type="submit"  className="bg-[#725038] text-white px-6 py-3 rounded-full text-large font-large" style={{padding: "1em",minWidth: "10%", marginTop: "3em",marginBottom: "3em"}}>Get in touch</button>
  </a>
 </div>
 

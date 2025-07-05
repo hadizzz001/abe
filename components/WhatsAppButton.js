@@ -84,6 +84,6 @@ const createWhatsAppURL = (inputs, items) => {
   `;
 
     const encodedMessage = encodeURIComponent(message);
-    const phoneNumber = '9613682289';  
+    const phoneNumber = '9613933437';  
     return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 };

@@ -2,17 +2,13 @@
 
 import { useState } from "react";
 
-export default function Home() {
-  const [selectedOption, setSelectedOption] = useState("");
+export default function Home() { 
 
   const handleWhatsAppRedirect = () => {
-    if (!selectedOption) {
-      alert("Please select an option before proceeding.");
-      return;
-    }
+ 
 
-    const phoneNumber = "+9613682289";
-    const message = encodeURIComponent(`I am interested in: ${selectedOption}`);
+    const phoneNumber = "+9613933437";
+    const message = encodeURIComponent(`I am interested in booking a consultancy session`);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
     window.open(whatsappUrl, "_blank");
@@ -24,38 +20,17 @@ export default function Home() {
         <div className="max-w-prose text-left">
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
             Book a
-            <strong className="text-[#000768]"> consultancy </strong>
+            <strong className="text-[#725038]"> consultancy </strong>
           </h1>
           <p className="mt-4 text-base text-gray-700 sm:text-lg">
             Unlock tailored solutions for your personal and professional growth. Whether you’re looking for expert corporate training, skills development, or life coaching, I offer customized consultancy sessions to help you achieve your goals. Book your session today and take the next step toward transformation.
           </p>
 
-          {/* Radio Buttons */}
-          <div className="mt-6 space-y-2">
-            {[
-              "E-Government and Digital Transformation",
-              "Skills Training & Coaching",
-              "Parental Coaching",
-              "Life Coaching",
-            ].map((option) => (
-              <label key={option} className="flex items-center space-x-2 cursor-pointer">
-                <input
-                  type="radio"
-                  name="consultancy"
-                  value={option}
-                  checked={selectedOption === option}
-                  onChange={(e) => setSelectedOption(e.target.value)}
-                  className="h-4 w-4 text-indigo-600 border-gray-300 focus:ring-indigo-500"
-                />
-                <span className="text-gray-700">{option}</span>
-              </label>
-            ))}
-          </div>
-
+ 
           {/* WhatsApp Button */}
           <div className="mt-4 flex gap-4 sm:mt-6">
             <button
-              className="inline-block rounded border border-indigo-600 bg-[#000768] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-800"
+              className="inline-block rounded border border-indigo-600 bg-[#725038] px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-800"
               onClick={handleWhatsAppRedirect}
             >
               Book via WhatsApp
@@ -67,7 +42,7 @@ export default function Home() {
         <div className="mt-6 md:mt-0 sm:p-10">
           <img
             className="w-full h-auto max-w-full rounded-lg object-cover md:h-[400px] lg:h-[500px]"
-            src="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743164628/zjbuggj5eaoua3vo93r5.jpg"
+            src="https://res.cloudinary.com/da48bjec6/image/upload/v1751706001/2_g9m8rr.webp"
             alt="Any Image Here"
           />
         </div>

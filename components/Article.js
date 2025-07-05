@@ -37,7 +37,7 @@ const Article = () => {
     
       <div className="flex justify-center mt-10">
         <button
-          className="bg-[#000768] text-white px-6 py-3 rounded-full text-large font-large"
+          className="bg-[#725038] text-white px-6 py-3 rounded-full text-large font-large"
           onClick={() => window.location.href = '/article'}
         >
           Learn More

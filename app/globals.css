@@ -116,7 +116,7 @@ body {
 
 
 a:hover {
-  color: #000768 !important;
+  color: #725038 !important;
   text-decoration: none;
 }
 
@@ -142,7 +142,7 @@ a:hover {
   font-family: "Lato", sans-serif;
   font-size: 12px;
   font-weight: 700;
-  background: #000768;
+  background: #725038;
   text-align: center;
   padding: 0 5px;
   min-width: 100%;
@@ -269,7 +269,7 @@ a:hover {
 
 
 .HtmlProductAddToCart {
-  background-color: #000768 !important;
+  background-color: #725038 !important;
 }
 
 button:focus {

@@ -11,19 +11,19 @@ export default function ImageLayout() {
                     <div className="relative">
                         <img
                             className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 "
-                            src="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743167944/ylosyolgzuxti6xwlzll.jpg"
+                            src="https://res.cloudinary.com/da48bjec6/image/upload/v1751706003/001_hvmfir.webp"
                             alt=""
                         />
                     </div>
                     <div>
                         <img
                             className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 mt-4 mb-5"
-                            src="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743167944/xgw42g1ysdgbphbdbgzw.jpg"
+                            src="https://res.cloudinary.com/da48bjec6/image/upload/v1751706001/2_g9m8rr.webp"
                             alt="Right image"
                         />
                         <img
                             className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110 mt-4"
-                            src="https://res.cloudinary.com/dea3r5dn7/image/upload/v1743167944/cmcngod9d2ouajcuimtw.jpg"
+                            src="https://res.cloudinary.com/da48bjec6/image/upload/v1751706001/3_yhqc00.webp"
                             alt="Right image"
                         />
 
