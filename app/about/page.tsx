@@ -23,7 +23,7 @@ export default function Home() {
             <strong className="text-[#725038]"> consultancy </strong>
           </h1>
           <p className="mt-4 text-base text-gray-700 sm:text-lg">
-            Unlock tailored solutions for your personal and professional growth. Whether you’re looking for expert corporate training, skills development, or life coaching, I offer customized consultancy sessions to help you achieve your goals. Book your session today and take the next step toward transformation.
+            Our consultancy services include sermons, Friday khutbahs, and mourning video coverage, along with spiritual guidance tailored to your needs. You can book private sessions for problem-solving, marriage contracts, or divorce (Talaq) procedures. All consultations are delivered with full confidentiality, respect, and in accordance with Islamic principles.
           </p>
 
  
