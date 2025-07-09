@@ -487,3 +487,7 @@ body {
 #navidnew{
   z-index: 9999999999999;
 }
+
+#mycusinputs{
+  border: #222 1px solid !important;
+}
